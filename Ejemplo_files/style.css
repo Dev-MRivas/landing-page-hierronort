@@ -1095,6 +1095,10 @@ textarea {
   display: block;
 }
 
+/* Texto Justificado */
+.text-justify {
+  text-align: justify;
+}
 
 @-webkit-keyframes loader-rotate {
   100% {
