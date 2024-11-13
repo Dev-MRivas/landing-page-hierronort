@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: 'Franklin Gothic';
-  src: url('../fonts/FRAHV.ttf'), url('../fonts/FRABK.ttf');
+  src: url('../assets/fonts/FRAHV.ttf'), url('../assets/fonts/FRABK.ttf');
 }
 
 :root {
