@@ -1254,15 +1254,20 @@ textarea {
 }
 
 /* Mapas */
-.sucursal {
+.sucursal * {
   cursor: pointer;
-  border-color: #c62828;
-  color: #c62828;
+  border-color: #605C5E;
+  color: #605C5E;
+  /* background: #fff; */
 }
 
-.sucursal h5 {
-  color: #c62828;
+.sucursal:hover * {
+  border-color: #fff;
+  background: #c62828;
+  color: #fff;
 }
+
+
 
 .mapa {
   display: none;
