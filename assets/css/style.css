@@ -1266,6 +1266,30 @@ textarea {
   font-family: var(--font-strong), sans-serif;
 }
 
+/* Navbar */
+.logo-right {
+  display: none;
+}
+
+@media (max-width: 1600px) {
+  .navbar .navbar-brand {
+    display: block;
+  }
+
+  .navbar .navbar-toggler {
+    display: block;
+  }
+
+  .logo-right {
+    display: block;
+  }
+
+  .navbar .collapse {
+    display: none !important;
+    /* Oculta la lista de navegación */
+  }
+}
+
 /* Drag and Drop File */
 
 .upload_dropZone {
