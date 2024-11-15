@@ -818,6 +818,8 @@ a p.gris {
   border-bottom: 10px solid transparent;
   border-radius: 4px;
   font-size: 16px;
+  box-shadow:  16px 16px 53px #c5c5c5,
+              -16px -16px 53px #fff;
 }
 
 .media-feature .icon {
