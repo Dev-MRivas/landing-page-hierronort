@@ -58,6 +58,12 @@ h5 {
   font-family: var(--font-strong), sans-serif;
 }
 
+.shadow-red{
+  /* text-shadow: -3px 3px 7px rgba(123,123,123,0.6); */
+  /* text-shadow: -3px 3px 10px rgba(241,0,0,0.6); */
+  text-shadow: -5px 5px 7px rgba(241,0,0,0.4);
+}
+
 .btn,
 .form-control {
   outline: none;
@@ -521,7 +527,6 @@ a p.gris {
 }
 
 .owl-carousel.home-slider .slider-item .slider-text h1 {
-  text-shadow: #555 1px 0 2px;
   font-size: 3rem;
   color: #fff;
   line-height: 1.2;
