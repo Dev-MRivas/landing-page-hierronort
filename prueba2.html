@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Hierronort</title>
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/aos.css">
+  <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <style>
+    /* Custom Navbar Styles */
+    .custom-navbar {
+        background-color: white;
+        padding: 15px 0;
+    }
+
+    .navbar-brand.logo-right {
+        margin-right: auto;
+    }
+
+    .navbar-brand img {
+        max-height: 80px;
+    }
+
+    .navbar-nav .nav-link {
+        color: #666;
+        margin: 15px 15px;
+    }
+
+    .social-icons a {
+        color: #666;
+        margin: 0 10px;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 991px) {
+        .navbar-brand.logo-right {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .navbar-collapse {
+            background-color: white;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 15px;
+        }
+
+        .navbar-nav {
+            text-align: center;
+        }
+    }
+
+    @media (min-width: 919px) {
+        .navbar-brand.d-none.d-lg-block {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+</style>
+
+<body cz-shortcut-listen="true">
+
+    <!-- <header data-aos="fade-down">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light position-relative">
+        <div class="p-3 container-fluid">
+        <a class="navbar-brand logo-right" href="">
+            <img src="./assets/img/logo.png" alt="hierronort" height="80">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+            aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+            <ul class="navbar-nav mb-2 mb-lg-0 me-auto">
+            <li class="nav-item">
+                <a class="gris nav-link" href="#nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="gris nav-link" href="#cerca-tuyo">Cerca Tuyo</a>
+            </li>
+            <li class="nav-item">
+                <a class="gris nav-link" href="#productos">Productos</a>
+            </li>
+            <li class="nav-item">
+                <a class="gris nav-link" href="./contacto.html">Trabajá con Nosotros</a>
+            </li>
+            </ul>
+
+            <a class="navbar-brand d-none d-lg-block position-absolute" style="left: 50%; transform: translateX(-50%);"
+            href="#">
+            <img src="./assets/img/logo.png" alt="hierronort" height="90">
+            </a>
+
+            <ul class="list-unstyled d-flex justify-content-end mb-0">
+            <li>
+                <a href="https://www.facebook.com/Hierronort.ok" class="p-2" target="_blank"><i
+                    class="gris fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/hierronort" class="p-2" target="_blank"><i
+                    class="gris fab fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/company/hierronort" class="p-2" target="_blank"><i
+                    class="gris fab fa-linkedin-in"></i></a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    </header> -->
+
+<header>
+    <nav class="p-3 navbar navbar-expand-lg custom-navbar">
+        <div class="container-fluid">
+            <!-- Mobile Logo -->
+            <a href="" class="navbar-brand logo-right d-lg-none">
+                <img src="./assets/img/logo.png" alt="Hierronort Logo">
+            </a>
+
+            <!-- Hamburger Menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="m-0 p-0 nav-link" href="#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="m-0 p-0 nav-link" href="#cerca-tuyo">Cerca Tuyo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="m-0 p-0 nav-link" href="#productos">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="m-0 p-0 nav-link" href="./contacto.html">Trabajá con Nosotros</a>
+                    </li>
+                </ul>
+
+                <!-- Desktop Center Logo -->
+                <a href="" class="navbar-brand d-none d-lg-block position-absolute">
+                    <img src="./assets/img/logo.png" alt="Hierronort Logo" height="90">
+                </a>
+
+                <!-- Social Icons -->
+                <div class="social-icons">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li>
+                            <a href="https://www.facebook.com/Hierronort.ok" class="p-2" target="_blank"><i
+                                class="gris fab fa-facebook-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/hierronort" class="p-2" target="_blank"><i
+                                class="gris fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/hierronort" class="p-2" target="_blank"><i
+                                class="gris fab fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+    <section class="home-slider owl-carousel">
+        <div class="slider-item" style="background-image: url('./assets/img/banner.webp'); background-size: cover;"
+            data-aos="fade-up">
+            <div>
+                <div class="row slider-text align-items-center justify-content-center text-center">
+                    <div class="col-md-10 col-sm-12" data-aos="fade-up">
+                    <h1 class="m-0">
+                        LÍDER EN MATERIALES SIDERO-METALÚRGICOS
+                    </h1>
+                    <h2 class="m-0">
+                        EL STOCK MÁS IMPORTANTE EN EL NOROESTE ARGENTINO
+                    </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section bg-light" id="nosotros" data-aos="fade-up">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center" data-aos="fade-up">
+              <h2 class="text-uppercase heading border-bottom mb-4">Nosotros</h2>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-12 mb-6 mb-md-0 bottommargin">
+              <div class="pr-lg-6 ">
+                <h3 class="font-light about-us">
+                  Somos el centro de servicios y distribuidor sidero-metalúrgico más importante de la región noroeste del
+                  país.
+                  Desde 1986 proveemos calidad en forma de acero.
+                  Aportamos soluciones a los más diversos proyectos constructivos e industriales.
+                </h3>
+              </div>
+            </div>
+      </section>
+    
+      <!-- Flotantes -->
+      <section>
+        <div style="
+          bottom: 50px;
+          right: 50px;
+          margin-left: 10px;
+          padding: 0;
+          position: fixed;
+          text-align: center;
+          width: 85px;
+          z-index: 15;
+          font-size: 40px;
+          background-color: #21C36B;
+          border: solid #21C36B 5px;
+          display: inline-block;
+          border-radius: 100%;
+          color: #21C36B;
+          
+          ">
+          <a href="https://api.whatsapp.com/send/?phone=5493874405574&text&type=phone_number&app_absent=0&text=Hola%2C+los+visito+desde+su+sitio+web.%0AMi+nombre+es%3A%0AMi+CUIT+es%3A%0A"
+            target="_blank">
+            <i style="color: white;" class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+        <div style="
+          bottom: 50px;
+          left: 50px;
+          margin-left: 10px;
+          padding: 0;
+          position: fixed;
+          text-align: center;
+          width: 85px;
+          z-index: 15;
+          font-size: 40px;
+          background-color: white;
+          border: solid #C62828 5px;
+          display: inline-block;
+          border-radius: 100%;
+          ">
+          <a href="https://tienda.hierronort.com.ar/" target="_blank">
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+        </div>
+      </section>
+    
+      <section class="section" id="servicios">
+        <div class="container">
+          <div class="row justify-content-center mb-5">
+            <div class="col-md-8 text-center" data-aos="fade-up">
+              <h2 class="text-uppercase heading border-bottom mb-4">MARCA REGISTRADA</h2>
+            </div>
+          </div>
+        </div>
+        <div class="container d-flex flex-wrap">
+          <div class="col-xl-4 col-lg-12 col-md-12 col-xs-12 col-12 mb-3" data-aos="fade-right">
+            <div class="h-100 mx-3 media d-block media-feature text-center">
+              <div class="media-body">
+                <h3 class="gris mt-0 ">Stock</h3>
+                <p class="text-justify gris">
+                  Contamos con el stock más amplio y diverso de la región en hierros
+                  para construcción, alambres rurales también para el agro y construcción,
+                  clavos, mallas electro-soldadas, perfiles ángulo, planchuelas, Tee, U chico,
+                  tubos con y sin costura, caños estructurales, perfiles C, hojas laminadas
+                  en frio y caliente, chapas para techos, perfilería importada W, UPN, IPN,
+                  HEB, IPE. Nuestra capacidad de entrega de materiales es inmediata. Este es
+                  el sello de Hierronort, un valor reconocido por los clientes que confían
+                  en nosotros.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-12 col-md-12 col-xs-12 col-12 mb-3" data-aos="fade-up">
+            <div class="h-100 mx-3 media d-block media-feature text-center">
+              <div class="media-body">
+                <h3 class="gris mt-0 ">Servicios</h3>
+                <p class="text-justify gris">
+                  Brindamos el servicio de corte, planchado y flejado de bobinas de
+                  acero de diferentes espesores, obteniendo la máxima calidad en los
+                  productos y satisfaciendo la demanda según necesidad del cliente,
+                  ofreciendo los materiales en medidas especiales para reducir los
+                  costos de desperdicio.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-12 col-md-12 col-xs-12 col-12 mb-3" data-aos="fade-left">
+            <div class="h-100 mx-3 media d-block media-feature text-center">
+              <div class="media-body">
+                <h3 class="gris mt-0 ">Valor agregado</h3>
+                <p class="text-justify gris">
+                  Impulsamos el desarrollo de la industria y las economías regionales
+                  cubriendo una amplia demanda. Trabajamos incansablemente en la búsqueda
+                  de la excelencia de nuestros servicios y productos. Por todos estos valores,
+                  una importante cartera de clientes nos elige y considera el aliado de sus
+                  proyectos, posicionándonos como líderes indiscutidos en la región noroeste
+                  del país.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="section border-t" id="cerca-tuyo">
+        <div class="container">
+          <!-- Encabezado -->
+          <div class="row justify-content-center mb-5">
+            <div class="col-md-8 text-center" data-aos="fade-up">
+              <h2 class="text-uppercase heading border-bottom mb-4">CERCA TUYO</h2>
+              <p class="mb-3 lead">Nuestras Sucursales</p>
+            </div>
+          </div>
+    
+          <!-- Contenido principal -->
+          <div class="row justify-content-center align-items-start">
+            <!-- Columna del mapa -->
+            <div class="col-lg-8 mb-4">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4306.885399191821!2d-65.42294273434585!3d-24.807624070127023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3041fb0b9a1%3A0x53e334d264e6c6c2!2sHierronort%20Salta%20-%20Red%20Acindar!5e0!3m2!1sen!2ses!4v1729869300543!5m2!1sen!2ses"
+                class="mapa show w-100" style="border:0; height: 550px;" allowfullscreen="" loading="lazy"
+                data-aos="fade-right" id="mapa-1">
+              </iframe>
+              <!-- Salta Calle San Juan -->
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3045.7242553811366!2d-65.42222366698529!3d-24.795557799824365!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3ae84ae2105%3A0xf9001720d12e100!2sHierronort%20Salta%20(sucursal%20calle%20San%20Juan)!5e0!3m2!1ses!2sus!4v1731412346527!5m2!1ses!2sus"
+                class="mapa w-100" style="border:0; height: 550px;" allowfullscreen="" loading="lazy"
+                data-aos="fade-right" id="mapa-2">
+              </iframe>
+              <!-- Jujuy -->
+              <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3059.7846095960454!2d-65.27189220054186!3d-24.216667183532277!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b061724b6dc05%3A0x6f012086033a2128!2sHierronort%20Jujuy!5e0!3m2!1ses!2sus!4v1731412375190!5m2!1ses!2sus"
+                class="mapa w-100" style="border:0; height: 550px;" allowfullscreen="" loading="lazy"
+                data-aos="fade-right" id="mapa-3">
+              </iframe>
+              <!-- San Miguel de Tucuman -->
+              <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3560.0660783350318!2d-65.23716804515395!3d-26.837850528219178!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c62d3f41fd5%3A0x3dd54dc46e29205c!2sHierronort%20Tucum%C3%A1n%20-%20Red%20Acindar!5e0!3m2!1ses!2sus!4v1731412420514!5m2!1ses!2sus"
+                class="mapa w-100" style="border:0; height: 550px;" allowfullscreen="" loading="lazy"
+                data-aos="fade-right" id="mapa-4">
+              </iframe>
+              <!-- San Andres, Tucuman -->
+              <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2991.4534278190154!2d-65.19420466189266!3d-26.920700793143226!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225be72ba75335%3A0x8d4dde3e7b1f6e97!2sHierronort%20San%20Andr%C3%A9s%2C%20Tucum%C3%A1n%20-%20Red%20Acindar!5e0!3m2!1ses!2sus!4v1731412767746!5m2!1ses!2sus"
+                class="mapa w-100" style="border:0; height: 550px;" allowfullscreen="" loading="lazy"
+                data-aos="fade-right" id="mapa-5">
+              </iframe>
+            </div>
+            <div class="col-lg-4" data-aos="fade-left">
+              <div class="card mb-3 mapa-seleccionado sucursal" id="tarjeta-1" data-map="mapa-1">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase">Casa Central Salta</h5>
+                  <p class="card-text">Av. Paraguay 1450, Salta</p>
+                </div>
+              </div>
+              <div class="card mb-3 mapa-no-seleccionado  sucursal" id="tarjeta-2" data-map="mapa-2">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase">Sucursal Salta, Calle San Juan</h5>
+                  <p class="card-text">San Juan 1344, Salta</p>
+                </div>
+              </div>
+              <div class="card mb-3 mapa-no-seleccionado sucursal" id="tarjeta-3" data-map="mapa-3">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase">Sucursal Jujuy</h5>
+                  <p class="card-text">
+                    Av. Corrientes 3390, San Salvador de Jujuy
+                  </p>
+                </div>
+              </div>
+              <div class="card mb-3 mapa-no-seleccionado sucursal" id="tarjeta-4" data-map="mapa-4">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase">Sucursal San Miguel de Tucumán</h5>
+                  <p class="card-text">
+                    Av. Colón 925, San Miguel de Tucumán
+                  </p>
+                </div>
+              </div>
+              <div class="card mb-3 mapa-no-seleccionado sucursal" id="tarjeta-5" data-map="mapa-5">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase">San Andrés,Tucumán</h5>
+                  <p class="card-text">
+                    RP306 Km 16, San Andrés de Tucumán
+                  </p>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-0">
+        <div class="container d-flex justify-content-center" data-aos="fade-up">
+          <img src="./assets/img/presupuesto.gif" class="img-fluid" alt="presupuesto">
+        </div>
+      </section>
+    
+      <section id="productos" class="section border-t">
+        <div class="container">
+          <div class="row justify-content-center mb-4">
+            <div class="col-md-8 text-center" data-aos="fade-up">
+              <h2 class="text-uppercase heading border-bottom">Productos</h2>
+            </div>
+          </div>
+    
+          <div class="mx-5 row no-gutters text-uppercase">
+            <!-- Chapas conformadas -->
+            <div class="col-md-4 col-sm-4 col-xs-4 col-4 mt-4" data-aos="fade-right">
+              <a href="#productos" class="link-thumbnail">
+                <h3>Chapas conformadas</h3>
+                <img src="./Ejemplo_files/work_thumb_1.jpg" class="img-fluid" alt="hierronort-chapas">
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4 col-4 mt-4" data-aos="fade-up">
+              <a href="#productos.html" class="link-thumbnail">
+                <h3>Hierros y mallas</h3>
+                <img src="./Ejemplo_files/work_thumb_2.jpg" alt="hierronort-hierros-mallas" class="img-fluid"
+                  data-aos="fade-up">
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4 col-4 mt-4" data-aos="fade-left">
+              <a href="#productos" class="link-thumbnail">
+                <h3>Chapas Lisas</h3>
+                <img src="./Ejemplo_files/work_thumb_10.jpg" alt="hierronort-chapas-lisas" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4 col-4 mt-4" data-aos="fade-right">
+              <a href="#productos" class="link-thumbnail">
+                <h3>Chapas gruesas</h3>
+                <img src="./Ejemplo_files/work_thumb_6.jpg" alt="hierronort-chapas-gruesas" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4 col-4 mt-4" data-aos="fade-up">
+              <a href="#productos" class="link-thumbnail">
+                <h3>Perfiles de chapa</h3>
+                <img src="./Ejemplo_files/work_thumb_7.jpg" alt="hierronort-perfiles-chapas" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4 col-4 mt-4" data-aos="fade-left">
+              <a href="#productos" class="link-thumbnail">
+                <h3>Construccion en seco</h3>
+                <img src="./Ejemplo_files/work_thumb_5.jpg" alt="hierronort-construccion-seco" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4 col-4 mt-4" data-aos="fade-right">
+              <a href="#productos" class="link-thumbnail">
+                <h3>Perfilería</h3>
+                <img src="./Ejemplo_files/work_thumb_3.jpg" alt="hierronort-perfileria" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4 col-4 mt-4" data-aos="fade-up">
+              <a href="#productos" class="link-thumbnail">
+                <h3 class="text-center justify-content-center">IPN/UPN/W</h3>
+                <img src="./Ejemplo_files/work_thumb_4.jpg" alt="hierronort-alambres" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4 col-4 mt-4" data-aos="fade-left">
+              <a href="#productos" class="link-thumbnail">
+                <h3>Caños y tubos</h3>
+                <img src="./Ejemplo_files/work_thumb_9.jpg" alt="hierronort-canos" class="img-fluid">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="p-0 section border-t" id="promociones">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center mb-4" data-aos="fade-up">
+              <h2 class="text-uppercase heading border-bottom mb-4">Promociones de la Semana</h2>
+            </div>
+            <div class="d-flex justify-content-center align-items-center" data-aos="fade-up">
+              <img src="./assets/img/presupuesto.gif" class="img-fluid" alt="presupuesto">
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="section border-t" id="redes-sociales">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center" data-aos="fade-up">
+              <h2 class="text-uppercase heading border-bottom mb-4">Seguinos</h2>
+              <!-- <p class="mb-3 lead">Somos fabricantes y distribuidores mayoristas de productos de acero argentino de la más alta calidad a todo el país. Confeccionamos perfiles de acero galvanizado para la construccion en seco y perfiles estructurales. Chapas lisas galvanizadas y prepintadas, LAC, LAF y PLATES F26-F36.</p> -->
+            </div>
+          </div>
+    
+          <div class="row no-gutters">
+            <div class="mt-4 col-md-4" data-aos="fade-right">
+              <a href="./chapas.html" class="link-thumbnail">
+                <h3><i class="fab fa-facebook"></i></h3>
+                <img src="./Ejemplo_files/work_thumb_1.jpg" alt="hierronort-chapas" class="img-fluid">
+              </a>
+            </div>
+            <div class="mt-4 col-md-4" data-aos="fade-up">
+              <a href="./hierros-mallas.html" class="link-thumbnail">
+                <h3><i class="fab fa-instagram"></i></h3>
+                <img src="./Ejemplo_files/work_thumb_2.jpg" alt="hierronort-hierros-mallas" class="img-fluid"
+                  data-aos="fade-up">
+              </a>
+            </div>
+    
+            <div class="mt-4 col-md-4" data-aos="fade-left">
+              <a href="./chapas-gruesas.html" class="link-thumbnail">
+                <h3><i class="fab fa-whatsapp"></i></h3>
+                <img src="./Ejemplo_files/work_thumb_10.jpg" alt="hierronort-chapas-lisas" class="img-fluid">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="mx-auto" style="height: 96px; background-color: #e6e6e6;">
+      </section>
+
+    <footer class="site-footer bg-white" role="contentinfo">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+            <ul class="h-100 list-unstyled footer-link">
+                <li>
+                <span class="mr-3 d-block">
+                    <h3 class="text-grey">INSTITUCIONAL</h3>
+                    <span class="d-block">
+                    <a href="#">Inicio</a>
+                    </span>
+                    <span class="d-block">
+                    <a href="#nosotros">Nosotros</a>
+                    </span>
+                    <span class="d-block">
+                    <a href="#productos">Productos</a>
+                    </span>
+                </li>
+                <li class="mt-5">
+                <span class="mr-3 d-block">
+                    <h3 class="text-white">AYUDA</h3>
+                    <span class="text-white d-block">
+                    <a href="https://api.whatsapp.com/send/?phone=5493874405574&text&type=phone_number&app_absent=0&text=Hola%2C+los+visito+desde+su+sitio+web.%0AMi+nombre+es%3A%0AMi+CUIT+es%3A%0A">
+                        Asesoramiento
+                    </a>
+                    </span>
+                    <span class="text-white d-block">
+                    <a href="#">Medios de Pago</a>
+                    </span>
+                    <span class="text-white d-block">
+                    <a href="#">Cambios y Devoluciones</a>
+                    </span>
+                    <span class="text-white d-block">
+                    <a href="#">Envios</a>
+                    </span>
+                </span>
+                </li>
+                
+            </ul>
+            </div>
+            <div class="col-md-3"> 
+            <!-- <h2 class="text-white">SUCURSALES</h3> -->
+            <ul class="list-unstyled footer-link">
+                <li>
+                <span class="mr-3 d-block text-uppercase">
+                    <h3 class="text-white">Casa Central - Salta</h3>
+                    <span class="text-red d-flex align-items-center">
+                    <span>
+                        <i class="fs-4 fas fa-map-marker-alt"></i>
+                    </span>
+                    <span class="px-1">
+                        Av. Paraguay 1450
+                    </span>
+                    </span>
+                </span>
+                </li>
+                <li>
+                <span class="mr-3 d-block text-uppercase">
+                    <h3 class="text-white">Sucursal Salta</h3>
+                    <span class="text-red d-flex align-items-center">
+                    <span>
+                        <i class="fs-4 fas fa-map-marker-alt"></i>
+                    </span>
+                    <span class="px-1">
+                        San Juan 1344
+                    </span>
+                    </span>
+                </span>
+                </li>
+                <li>
+                <span class="mr-3 d-block text-uppercase">
+                    <h3 class="text-white">Sucursal Jujuy</h3>
+                    <span class="text-red d-flex align-items-center">
+                    <span>
+                        <i class="fs-4 fas fa-map-marker-alt"></i>
+                    </span>
+                    <span class="px-1">
+                        Av. Corrientes 3390
+                    </span>
+                    </span>
+                </span>
+                </li>
+                <li>
+                <span class="mr-3 d-block text-uppercase">
+                    <h3 class="text-white">Sucursal Tucumán</h3>
+                    <span class="text-red d-flex align-items-center">
+                    <span>
+                        <i class="fs-4 fas fa-map-marker-alt"></i>
+                    </span>
+                    <span class="px-1">
+                        Av. Colón 925
+                    </span>
+                    </span>
+                </span>
+                </li>
+                <li>
+                <span class="mr-3 d-block text-uppercase">
+                    <h3 class="text-white">Centro de Distribución San Andrés, Tucumán</h3>
+                    <span class="text-red d-flex align-items-center">
+                    <span>
+                        <i class="fs-4 fas fa-map-marker-alt"></i>
+                    </span>
+                    <span class="px-1">
+                        Ruta provincial N° 306 - Km 16 - Los Porceles, Tucumán
+                    </span>
+                    </span>
+                </span>
+                </li>
+            </ul>
+            </div>
+            <div class="col-md-3">
+            <ul class="list-unstyled footer-link">
+                <li>
+                <span class="mr-3 d-block">
+                    <h3 class="text-white">COTIZACIÓN ONLINE</h3>
+                    <span class="text-white d-block">
+                    <a href="#">
+                        <span class="d-flex align-items-center">
+                        <span>
+                            <i class="fs-4 fab fa-whatsapp"></i>
+                        </span>
+                        <span class="px-1">
+                            +54 9 3874 40-5574
+                        </span>
+                        </span>
+                    </a>
+                    </span>
+                </span>
+                </li>
+                <li>
+                <span class="mr-3 d-block">
+                    <h3 class="text-white">HORARIOS</h3>
+                    <span class="text-red d-block">
+                        <span class="d-flex align-items-center">
+                        <span>
+                            <i class="fs-4 far fa-clock"></i>
+                        </span>
+                        <span class="px-1">
+                            Lunes a Viernes 08:30 a 18:00
+                        </span>
+                        </span>
+                    </span>
+                    <span class="text-red d-block">
+                        <span class="d-flex align-items-center">
+                        <span>
+                            <i class="fs-4 far fa-clock"></i>
+                        </span>
+                        <span class="px-1">
+                            Sábados: 08:30 a 13
+                        </span>
+                        </span>
+                    </span>
+                </span>
+                </li>
+                <li>
+                <span class="mr-3 d-block">
+                    <h3 class="text-white">TRABAJA CON NOSOTROS</h3>
+                    <span class="text-white d-block">
+                    <a class="d-block" href="./contacto.html">
+                        <span class="d-flex align-items-center">
+                        <span>
+                            <i class="fs-4 far fa-envelope"></i>
+                        </span>
+                        <span class="px-1">
+                            auxrrhh@hierronort.com.ar
+                        </span>
+                        </span>
+                    </a>
+                    </span>
+                </span>
+                </li>
+                <li>
+                <!-- <h3 class="text-white">Seguinos en nuestras redes</h3> -->
+                <ul class="list-unstyled footer-link d-flex footer-social">
+                    <li><a href="https://www.facebook.com/Hierronort.ok" class="p-2" target="_blanck"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.instagram.com/hierronort" class="p-2" target="_blanck"><i class="fab fa-instagram"></i></span></a></li> 
+                    <li><a href="https://www.linkedin.com/company/hierronort" class="p-2" target="_blanck"><i class="fab fa-linkedin-in"></i></span></a></li>
+                </ul>
+                </li>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center allign-items-center">
+            <div class="mx-auto p-3  footer-logo">
+                <img src="./assets/img/logo.png" alt="logo-hierronort">
+            </div>
+            </div>
+        </div>
+        </div>
+    </footer> 
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/mapa.js"></script>
+    <script src="./assets/js/navbar.js"></script>
+</body>
+
+</html>

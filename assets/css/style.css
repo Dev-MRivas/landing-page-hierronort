@@ -1319,11 +1319,11 @@ textarea {
 }
 
 /* Navbar */
-.logo-right {
+/* .logo-right {
   display: none;
-}
+} */
 
-@media (max-width: 1600px) {
+/* @media (max-width: 1600px) {
   .navbar .navbar-brand {
     display: block;
   }
@@ -1338,9 +1338,8 @@ textarea {
 
   .navbar .collapse {
     display: none !important;
-    /* Oculta la lista de navegación */
   }
-}
+} */
 
 /* Drag and Drop File */
 
