@@ -1469,3 +1469,15 @@ details>b {
     font-size: 11px;
   }
 }
+
+.product-grid{
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+@media (min-width: 1000px) {
+  .product-grid{
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
+}
