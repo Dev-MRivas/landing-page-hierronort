@@ -41,11 +41,11 @@
 
         /* Responsive adjustments */
         @media (max-width: 991px) {
-            .navbar-brand.logo-right {
+            /* .navbar-brand.logo-right {
                 position: absolute;
                 left: 50%;
                 transform: translateX(-50%);
-            }
+            } */
 
             .navbar-collapse {
                 background-color: white;
@@ -62,13 +62,24 @@
             }
         }
 
-        @media (min-width: 919px) {
+        /* @media (min-width: 919px) {
             .navbar-brand.d-none.d-lg-block {
                 position: absolute;
                 left: 50%;
                 transform: translateX(-50%);
             }
+        } */
+        .navbar-brand.d-none.d-lg-block {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+      @media (max-width: 1400px) and (min-width: 991px) {
+        .nav-item:last-child {
+            display: none;
         }
+      }
     </style>
 </head>
 <body>
@@ -76,7 +87,7 @@
         <nav class="p-3 navbar navbar-expand-lg custom-navbar">
             <div class="container-fluid">
                 <!-- Mobile Logo -->
-                <a href="" class="navbar-brand logo-right d-lg-none">
+                <a href="./index.html" class="navbar-brand logo-right d-lg-none">
                     <img src="./assets/img/logo.png" alt="Hierronort Logo">
                 </a>
     
@@ -111,15 +122,15 @@
                     <div class="social-icons">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li>
-                                <a href="https://www.facebook.com/Hierronort.ok" class="p-2" target="_blank"><i
+                                <a href="https://www.facebook.com/Hierronort.ok" class="px-2" target="_blank"><i
                                     class="gris fab fa-facebook-square"></i></a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/hierronort" class="p-2" target="_blank"><i
+                                <a href="https://www.instagram.com/hierronort" class="px-2" target="_blank"><i
                                     class="gris fab fa-instagram"></i></a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/company/hierronort" class="p-2" target="_blank"><i
+                                <a href="https://www.linkedin.com/company/hierronort" class="px-2" target="_blank"><i
                                     class="gris fab fa-linkedin-in"></i></a>
                             </li>
                         </ul>
