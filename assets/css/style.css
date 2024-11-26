@@ -1341,6 +1341,74 @@ textarea {
   }
 } */
 
+/* Custom Navbar Styles */
+.custom-navbar {
+  background-color: white;
+  padding: 15px 0;
+}
+
+.navbar-brand.logo-right {
+  margin-right: auto;
+}
+
+.navbar-brand img {
+  max-height: 80px;
+}
+
+.navbar-nav .nav-link {
+  color: #666;
+  margin: 15px 15px;
+}
+
+.social-icons a {
+  color: #666;
+  margin: 0 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+
+/* LOGO AL MEDIO MOBILE */
+  /* .navbar-brand.logo-right {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+  } */
+
+  .navbar-collapse {
+      background-color: white;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      padding: 15px;
+  }
+
+  .navbar-nav {
+      text-align: center;
+  }
+}
+
+/* @media (min-width: 919px) {
+  .navbar-brand.d-none.d-lg-block {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+} */
+.navbar-brand.d-none.d-lg-block {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+@media (max-width: 1400px) and (min-width: 991px) {
+.nav-item:last-child {
+  display: none;
+}
+}
+
 /* Drag and Drop File */
 
 .upload_dropZone {

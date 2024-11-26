@@ -16,55 +16,61 @@
 <body cz-shortcut-listen="true">
 
   <header data-aos="fade-down">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light position-relative">
-      <div class="p-3 container-fluid">
-        <a class="navbar-brand logo-right" href="./index.html">
-          <img src="./assets/img/logo.png" alt="hierronort" height="80">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
-          aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="p-3 navbar navbar-expand-lg custom-navbar">
+        <div class="container-fluid">
+            <!-- Mobile Logo -->
+            <a href="./index.html" class="navbar-brand logo-right d-lg-none">
+                <img src="./assets/img/logo.png" alt="Hierronort Logo">
+            </a>
 
-        <div class="collapse navbar-collapse" id="navbarsExample05">
-          <ul class="navbar-nav mb-2 mb-lg-0 me-auto">
-            <li class="nav-item">
-              <a class="gris nav-link" href="./index.html#nosotros">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="gris nav-link" href="./index.html#cerca-tuyo">Cerca Tuyo</a>
-            </li>
-            <li class="nav-item">
-              <a class="gris nav-link" href="./index.html#productos">Productos</a>
-            </li>
-            <li class="nav-item">
-              <a class="gris nav-link" href="./contacto.html">Trabajá con Nosotros</a>
-            </li>
-          </ul>
+            <!-- Hamburger Menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-          <a class="navbar-brand d-none d-lg-block position-absolute" style="left: 50%; transform: translateX(-50%);"
-            href="#">
-            <img src="./assets/img/logo.png" alt="hierronort" height="90">
-          </a>
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="p-0 m-0 nav-link" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="p-0 m-0 nav-link" href="./index.html#cerca-tuyo">Cerca Tuyo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="p-0 m-0 nav-link" href="./index.html#productos">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="p-0 m-0 nav-link" href="./contacto.html">Trabajá con Nosotros</a>
+                    </li>
+                </ul>
 
-          <ul class="list-unstyled d-flex justify-content-end mb-0">
-            <li>
-              <a href="https://www.facebook.com/Hierronort.ok" class="p-2" target="_blank"><i
-                  class="gris fab fa-facebook-square"></i></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/hierronort" class="p-2" target="_blank"><i
-                  class="gris fab fa-instagram"></i></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/company/hierronort" class="p-2" target="_blank"><i
-                  class="gris fab fa-linkedin-in"></i></a>
-            </li>
-          </ul>
+                <!-- Desktop Center Logo -->
+                <a href="./index.html" class="navbar-brand d-none d-lg-block position-absolute">
+                  <img src="./assets/img/logo.png" alt="Hierronort Logo" height="90">
+                </a>
+
+                <!-- Social Icons -->
+                <div class="social-icons">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li>
+                            <a href="https://www.facebook.com/Hierronort.ok" class="px-2" target="_blank"><i
+                                class="gris fab fa-facebook-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/hierronort" class="px-2" target="_blank"><i
+                                class="gris fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/hierronort" class="px-2" target="_blank"><i
+                                class="gris fab fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
     </nav>
-  </header>
+</header>
 
   <!-- END header -->
   <!-- Formulario de Envio de CV -->
