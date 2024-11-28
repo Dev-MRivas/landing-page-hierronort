@@ -536,7 +536,7 @@ a p.gris {
 }
 
 .gris{
-  color: #605C5E !important;
+  color: #605C5E;
 }
 
 .owl-carousel.home-slider .slider-item .slider-text h1 {
@@ -1295,7 +1295,6 @@ textarea {
 }
 
 
-
 .mapa {
   display: none;
 }
@@ -1317,6 +1316,17 @@ textarea {
 .font-heavy {
   font-family: var(--font-strong), sans-serif;
 }
+
+/* Navbar lista de navegacion */
+.navbar-nav .nav-link:hover {
+  color: #c62828;
+}
+
+.navbar-nav li a i:hover {
+  color: #c62828 !important;
+}
+
+
 
 /* Navbar */
 /* .logo-right {
