@@ -1326,7 +1326,38 @@ textarea {
   color: #c62828 !important;
 }
 
+/* Mapa Pagina Nosotros */
 
+.bases-container .base {
+  background-color: rgb(24, 26, 27);
+  color: rgb(255, 29, 56);
+}
+
+
+.bases-container .base {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: auto;
+  border-radius: 100%;
+  background-color: #fff;
+  text-align: center;
+  color: #fa001e;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.bases-container .base .norte {
+  left: 50%;
+  top: 15%;
+}
+.bases-container .base .cuyo {
+  left: 15%;
+  top: 33%;
+}
 
 /* Navbar */
 /* .logo-right {
