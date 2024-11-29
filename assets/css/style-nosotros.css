@@ -1,3 +1,7 @@
+:root {
+  --color-principal: #c62828;
+}
+
 #envios {
   background-color: #fff;
   border-top: 1px solid #b8b8b8
@@ -234,4 +238,32 @@
       margin-left: auto;
       margin-right: auto
   }
+}
+
+.hero {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+.hero h1 {
+  color: #c62828;
+  font-size: 3.5rem;
+}
+.hero h2 {
+  color: #6c757d;
+  font-size: 1.5rem;
+}
+.content-section {
+  padding: 60px 0;
+}
+.vision-mission {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  height: 100%;
+}
+.vision-mission h3{
+  color: var(--color-principal);
+}
+.razon h3{
+  color: var(--color-principal);
 }
