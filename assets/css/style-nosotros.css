@@ -2,107 +2,18 @@
   --color-principal: #c62828;
 }
 
-/* #envios {
-  background-color: #fff;
-  border-top: 1px solid #b8b8b8
-} */
-
-/* #envios .g50a {
-  grid-column: 1/11;
-  padding: 3em 2em 3em 7.5em
-} */
-
-/* #envios .g50a .titulo {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%
-} */
-
-/* #envios .g50a p {
-  font-size: 18px
-} */
-
 .g50b {
   /* grid-column: 11/30; */
   /* height: 100%; */
   padding-left: 2em
 }
 
-/* .mapa-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 3em
-} */
-
-/* #envios .g50b .mapa-container>div {
-  width: 33.33%
-} */
-
-/* #envios .g50b .mapa-sucursales {
-  position: relative
-} */
-
-/* #envios .g50b .bases-container {
-  z-index: 3;
-  pointer-events: none
-} */
-/* 
-#envios .g50b .bases-container .base {
-  width: 25px;
-  height: 25px;
-  position: absolute;
-  margin: auto;
-  border-radius: 100%;
-  background-color: #fff;
-  text-align: center;
-  color: #fa001e;
-  font-weight: 900;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 1
-} */
-/* 
-#envios .g50b .bases-container .base::after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  border-radius: inherit;
-  background-color: transparent;
-  -webkit-animation: cd-pulse3 1.5s infinite;
-  -moz-animation: cd-pulse3 1.5s infinite;
-  animation: cd-pulse3 1.5s infinite
-}
-
-#envios .g50b .col-izq,#envios .g50b .col-der {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  padding: 3em 0 1em 0
-} */
-
-/* .item {
-  margin-bottom: 2em
-}
-.titulo {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 15px
-} */
-
 .num {
   width: 30px;
   height: 30px;
-  color: #fa001e;
+  color: var(--color-principal);
   border-radius: 100%;
-  border: 2px solid #fa001e;
+  border: 2px solid var(--color-principal);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,115 +21,14 @@
   font-weight: 900;
   margin-right: 10px
 }
-/* 
-#envios .g50b .col-izq .item .titulo h4,#envios .g50b .col-der .item .titulo h4 {
-  width: calc(100% - 40px)
-}
 
-#envios .g50b .col-izq .item p,#envios .g50b .col-der .item p {
-  line-height: 1.1;
-  padding-left: 40px
-}
-
-#envios .g50b .col-izq {
-  padding-left: 1em
-} */
-/* 
-@media (max-width: 454px) {
-  #envios .g50a {
-      grid-column:1/30;
-      padding: 3em 2em 3em 2.5em
-  }
-
-  #envios .g50a h3 {
-      margin-bottom: 1em
-  }
-
-  #envios .g50b {
-      grid-column: 4/23
-  }
-
-  #envios .g50b .mapa-container {
-      flex-direction: column;
-      display: grid
-  }
-
-  #envios .g50b .mapa-container .col-der {
-      order: 2;
-      padding: 0
-  }
-
-  #envios .g50b .mapa-container .col-izq {
-      order: 1;
-      padding: 0
-  }
-
-  #envios .g50b .mapa-container .mapa-sucursales {
-      order: 0
-  }
-
-  #envios .g50b .mapa-container>div {
-      width: 100%;
-      padding-left: 0
-  }
-
-  #envios .mapa-sucursales,#envios .mapa-sucursales svg,#envios .mapa-sucursales>div {
-      width: 300px;
-      margin: auto
-  }
-
-  #envios .mapa-sucursales {
-      margin-bottom: 30px
-  }
-
-  #envios .bases-container {
-      left: -11px;
-      top: -20px
-  }
-}
-
-@media (min-width: 1601px) {
-  #envios .g50a {
-      grid-column:1/9
-  }
-
-  #envios .g50b {
-      grid-column: 9/30
-  }
-
-  #envios .g50b .mapa-container {
-      width: 90%;
-      margin-left: auto;
-      margin-right: auto
-  }
-
-  #envios .g50b .col-izq,#envios .g50b .col-der {
-      padding: 8em 0 1em 0
-  }
-}
-
-@media (min-width: 2560px) {
-  #envios .g50a {
-      grid-column:1/7
-  }
-
-  #envios .g50b {
-      grid-column: 7/30
-  }
-
-.mapa-container {
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto
-  }
-} */
 
 .hero {
   background-color: #f8f9fa;
   padding: 60px 0;
 }
 .hero h1 {
-  color: #c62828;
+  color: var(--color-principal);
   font-size: 3.5rem;
 }
 .hero h2 {
@@ -239,4 +49,8 @@
 }
 .razon h3{
   color: var(--color-principal);
+}
+
+.bg-color-principal {
+  background-color: var(--color-principal);
 }

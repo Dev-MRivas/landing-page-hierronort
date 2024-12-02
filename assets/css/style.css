@@ -12,6 +12,7 @@
 :root {
   --font-base: "Franklin Gothic Book";
   --font-strong: "Franklin Gothic Heavy";
+  --color-principal: #c62828;
 }
 
 body {
@@ -22,13 +23,6 @@ body {
   color: #6c757d;
 }
 
-/* @font-face {
-  font-family: "(fuente que quieras utilizar)"; //nombre de la tipografía (ejemplo:"Arial")
-  src: url("carpeta-fuente/fuente.ttf"); //para buscar el archivo con tu fuente
-  src: local(?), //en caso de que el navegador no la encuente(o no pueda leer el archivo) elegirá los siguientes formatos
-    url("carpeta-fuente/fuente.woff") format("woff"), //especificas el nombre del archivo con el formato.
-    url("carpeta-fuente/fuente.ttf") format("truetype"); //especificas el nombre del archivo con el formato
-} */
 
 a {
   color: #c62828;
@@ -1326,39 +1320,6 @@ textarea {
   color: #c62828 !important;
 }
 
-/* Mapa Pagina Nosotros */
-
-.bases-container .base {
-  background-color: rgb(24, 26, 27);
-  color: rgb(255, 29, 56);
-}
-
-
-.bases-container .base {
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: auto;
-  border-radius: 100%;
-  background-color: #fff;
-  text-align: center;
-  color: #fa001e;
-  font-weight: 900;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 1;
-}
-
-.bases-container .base .norte {
-  left: 50%;
-  top: 15%;
-}
-.bases-container .base .cuyo {
-  left: 15%;
-  top: 33%;
-}
-
 /* Navbar */
 /* .logo-right {
   display: none;
@@ -1410,11 +1371,11 @@ textarea {
 @media (max-width: 991px) {
 
 /* LOGO AL MEDIO MOBILE */
-  /* .navbar-brand.logo-right {
+  .navbar-brand.logo-right {
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
-  } */
+  }
 
   .navbar-collapse {
       background-color: white;
