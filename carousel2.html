@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brand Carousel</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <style>
+      /* styles.css */
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f8f9fa;
+      }
+
+      .carousel-container {
+        width: 80%;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .carousel {
+        display: flex;
+        width: calc(200%); /* Duplica el ancho para el efecto continuo */
+      }
+
+      .carousel-track {
+        display: flex;
+        gap: 20px;
+        animation: scroll 15s linear infinite;
+      }
+
+      .carousel-item {
+        flex: none;
+        width: 150px;
+        height: 100px;
+      }
+
+      .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+    </style>
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="carousel-track">
+          <div class="carousel-item">
+            <img src="brand1.png" alt="Brand 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="brand2.png" alt="Brand 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="brand3.png" alt="Brand 3" />
+          </div>
+          <div class="carousel-item">
+            <img src="brand4.png" alt="Brand 4" />
+          </div>
+          <div class="carousel-item">
+            <img src="brand5.png" alt="Brand 5" />
+          </div>
+          <!-- Duplicado para efecto infinito -->
+          <div class="carousel-item">
+            <img src="brand1.png" alt="Brand 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="brand2.png" alt="Brand 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="brand3.png" alt="Brand 3" />
+          </div>
+          <div class="carousel-item">
+            <img src="brand4.png" alt="Brand 4" />
+          </div>
+          <div class="carousel-item">
+            <img src="brand5.png" alt="Brand 5" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      // script.js
+      const carouselTrack = document.querySelector(".carousel-track");
+
+      carouselTrack.addEventListener("mouseover", () => {
+        carouselTrack.style.animationPlayState = "paused";
+      });
+
+      carouselTrack.addEventListener("mouseout", () => {
+        carouselTrack.style.animationPlayState = "running";
+      });
+    </script>
+  </body>
+</html>

@@ -57,7 +57,7 @@
 
 /* Carusel de Marcas */
 :root {
-    --items-per-page: 8;
+    --items-per-page: 7;
 }
 
 .carousel-basic {
@@ -79,3 +79,57 @@
   background-color: #fff;
   border: 1px solid #fff;
 }
+
+/* Carousel 2 */
+.carousel-basic2 {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+}
+
+/* h1 {
+  color: #333;
+} */
+
+.brand-carousel {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.brand-item {
+  flex: 0 0 auto;
+  margin: 0 20px;
+}
+
+.brand-item img {
+  width: 100px;
+  height: 50px;
+  object-fit: contain;
+}
+
