@@ -54,3 +54,28 @@
 .bg-color-principal {
   background-color: var(--color-principal);
 }
+
+/* Carusel de Marcas */
+:root {
+    --items-per-page: 8;
+}
+
+.carousel-basic {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-basic-container {
+  white-space: nowrap;
+}
+
+.carousel-basic-item {
+  display: inline-block;
+  min-width: calc(100% / var(--items-per-page)); /* Display 3 items at a time */
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
