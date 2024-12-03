@@ -103,7 +103,7 @@
   
         // Set up animation
         let scrollLeft = 0;
-        const scrollSpeed = 6; // Adjust the scroll speed as needed
+        const scrollSpeed = 6; 
         let contados = 0;
         let mayor = 0;
   
@@ -115,7 +115,7 @@
           const deltaTime = timestamp - lastTimestamp;
           lastTimestamp = timestamp;
   
-          scrollLeft += (scrollSpeed * deltaTime) / 60; // Normalize speed
+          scrollLeft += (scrollSpeed * deltaTime) / 60; 
           if(mayor <= scrollLeft){
             mayor = scrollLeft
           }
