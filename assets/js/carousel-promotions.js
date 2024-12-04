@@ -9,13 +9,7 @@ $(document).ready(function () {
       pauseOnHover: false,
       responsive: [
         {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-          },
-        },
-        {
-          breakpoint: 520,
+          breakpoint: 1026,
           settings: {
             slidesToShow: 1,
           },
