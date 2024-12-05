@@ -73,11 +73,7 @@
   }
 }
 
-body {
-  background-color: #fff;
-}
-
-.row {
+.row-carousel {
   overflow: hidden;
 }
 

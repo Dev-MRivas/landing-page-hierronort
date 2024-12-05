@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hierronort</title>
     <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <!-- CSS -->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/aos.css">
@@ -13,11 +14,18 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <!-- Slick Slider CSS -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+
+    <!-- SCRIPTS -->
+    <script 
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Slick Slider JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="./assets/js/aos.js"></script> -->
 </head>
 <body>
     <header data-aos="fade-down">
@@ -380,17 +388,17 @@
         </div>
       </div>
     </section>
-  
-    <section class="p-0 section border-t" id="promociones">
+
+    <section class="section" id="promociones">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-8 text-center mb-4" data-aos="fade-up">
+          <div class="col-md-8 text-center mb-4">
             <h2 class="text-uppercase heading border-bottom mb-4">Promociones de la Semana</h2>
           </div>
         </div>
-        <div class="row">
-          <div class="container" data-aos="fade-up">
-            <section class="promociones-carousel slider" data-arrows="true">
+        <div class="row-carousel row">
+          <div class="container">
+            <div class="promociones-carousel slider">
               <div class="slide">
                 <img src="./assets/img/promociones/promocion1.jpg" alt="promocion1">
               </div>
@@ -415,243 +423,237 @@
               <div class="slide">
                 <img src="./assets/img/promociones/promocion4.jpg" alt="promocion4">
               </div>
-            </section>
+            </div>
           </div>
         </div>
       </div>
     </section>
-  
-    <section class="section border-t" id="redes-sociales">
+    
+    <section class="section" id="redes-sociales">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8 text-center" data-aos="fade-up">
+        <div class="row justify-content-center" data-aos="fade-up">
+          <div class="col-md-8 text-center">
             <h2 class="text-uppercase heading border-bottom mb-4">Seguinos</h2>
-            <!-- <p class="mb-3 lead">Somos fabricantes y distribuidores mayoristas de productos de acero argentino de la más alta calidad a todo el país. Confeccionamos perfiles de acero galvanizado para la construccion en seco y perfiles estructurales. Chapas lisas galvanizadas y prepintadas, LAC, LAF y PLATES F26-F36.</p> -->
           </div>
         </div>
   
-        <div class="row no-gutters">
-          <div class="mt-4 col-md-4" data-aos="zoom-in-up">
+        <div class="row no-gutters" data-aos="fade-up">
+          <div class="mt-4 col-md-4">
             <a href="#redes-sociales" class="link-thumbnail">
               <h3><i class="fab fa-facebook"></i></h3>
-              <img src="./assets/img/productos/producto1.jpg" alt="hierronort-chapas" class="img-fluid">
+              <img src="./assets/img/redes-sociales/logo-facebook.webp" alt="" class="img-fluid">
             </a>
           </div>
-          <div class="mt-4 col-md-4" data-aos="fade-up">
+          <div class="mt-4 col-md-4">
             <a href="#redes-sociales" class="link-thumbnail">
               <h3><i class="fab fa-instagram"></i></h3>
-              <img src="./assets/img/productos/producto2.jpg" alt="hierronort-hierros-mallas" class="img-fluid"
-                data-aos="fade-up">
+              <img src="./assets/img/redes-sociales/logo-instagram.png" alt="" class="img-fluid">
             </a>
           </div>
   
-          <div class="mt-4 col-md-4" data-aos="zoom-in-up">
+          <div class="mt-4 col-md-4">
             <a href="#redes-sociales" class="link-thumbnail">
               <h3><i class="fab fa-whatsapp"></i></h3>
-              <img src="./assets/img/productos/producto10.jpg" alt="hierronort-chapas-lisas" class="img-fluid">
+              <img src="./assets/img/redes-sociales/logo-whatsapp.webp" alt="" class="img-fluid">
             </a>
           </div>
         </div>
       </div>
     </section>
-  
+
     <section class="mx-auto" style="height: 96px; background-color: #e6e6e6;">
     </section>
 
-  <footer class="site-footer bg-white" role="contentinfo">
-      <div class="container">
-      <div class="row">
-          <div class="col-md-3">
-          <ul class="h-100 list-unstyled footer-link">
-              <li>
-              <span class="mr-3 d-block">
-                  <h3 class="text-grey">INSTITUCIONAL</h3>
-                  <span class="d-block">
-                  <a href="#">Inicio</a>
-                  </span>
-                  <span class="d-block">
-                  <a href="#nosotros">Nosotros</a>
-                  </span>
-                  <span class="d-block">
-                  <a href="#productos">Productos</a>
-                  </span>
-              </li>
-              <li class="mt-5">
-              <span class="mr-3 d-block">
-                  <h3 class="text-white">AYUDA</h3>
-                  <span class="text-white d-block">
-                  <a href="https://api.whatsapp.com/send/?phone=5493874405574&text&type=phone_number&app_absent=0&text=Hola%2C+los+visito+desde+su+sitio+web.%0AMi+nombre+es%3A%0AMi+CUIT+es%3A%0A">
-                      Asesoramiento
-                  </a>
-                  </span>
-                  <span class="text-white d-block">
-                  <a href="#">Medios de Pago</a>
-                  </span>
-                  <span class="text-white d-block">
-                  <a href="#">Cambios y Devoluciones</a>
-                  </span>
-                  <span class="text-white d-block">
-                  <a href="#">Envios</a>
-                  </span>
-              </span>
-              </li>
-              
-          </ul>
-          </div>
-          <div class="col-md-3"> 
-          <!-- <h2 class="text-white">SUCURSALES</h3> -->
-          <ul class="list-unstyled footer-link">
-              <li>
-              <span class="mr-3 d-block text-uppercase">
-                  <h3 class="text-white">Casa Central - Salta</h3>
-                  <span class="text-red d-flex align-items-center">
-                  <span>
-                      <i class="fs-4 fas fa-map-marker-alt"></i>
-                  </span>
-                  <span class="px-1">
-                      Av. Paraguay 1450
-                  </span>
-                  </span>
-              </span>
-              </li>
-              <li>
-              <span class="mr-3 d-block text-uppercase">
-                  <h3 class="text-white">Sucursal Salta</h3>
-                  <span class="text-red d-flex align-items-center">
-                  <span>
-                      <i class="fs-4 fas fa-map-marker-alt"></i>
-                  </span>
-                  <span class="px-1">
-                      San Juan 1344
-                  </span>
-                  </span>
-              </span>
-              </li>
-              <li>
-              <span class="mr-3 d-block text-uppercase">
-                  <h3 class="text-white">Sucursal Jujuy</h3>
-                  <span class="text-red d-flex align-items-center">
-                  <span>
-                      <i class="fs-4 fas fa-map-marker-alt"></i>
-                  </span>
-                  <span class="px-1">
-                      Av. Corrientes 3390
-                  </span>
-                  </span>
-              </span>
-              </li>
-              <li>
-              <span class="mr-3 d-block text-uppercase">
-                  <h3 class="text-white">Sucursal Tucumán</h3>
-                  <span class="text-red d-flex align-items-center">
-                  <span>
-                      <i class="fs-4 fas fa-map-marker-alt"></i>
-                  </span>
-                  <span class="px-1">
-                      Av. Colón 925
-                  </span>
-                  </span>
-              </span>
-              </li>
-              <li>
-              <span class="mr-3 d-block text-uppercase">
-                  <h3 class="text-white">Centro de Distribución San Andrés, Tucumán</h3>
-                  <span class="text-red d-flex align-items-center">
-                  <span>
-                      <i class="fs-4 fas fa-map-marker-alt"></i>
-                  </span>
-                  <span class="px-1">
-                      Ruta provincial N° 306 - Km 16 - Los Porceles, Tucumán
-                  </span>
-                  </span>
-              </span>
-              </li>
-          </ul>
-          </div>
-          <div class="col-md-3">
-          <ul class="list-unstyled footer-link">
-              <li>
-              <span class="mr-3 d-block">
-                  <h3 class="text-white">COTIZACIÓN ONLINE</h3>
-                  <span class="text-white d-block">
-                  <a href="#">
-                      <span class="d-flex align-items-center">
-                      <span>
-                          <i class="fs-4 fab fa-whatsapp"></i>
-                      </span>
-                      <span class="px-1">
-                          +54 9 3874 40-5574
-                      </span>
-                      </span>
-                  </a>
-                  </span>
-              </span>
-              </li>
-              <li>
-              <span class="mr-3 d-block">
-                  <h3 class="text-white">HORARIOS</h3>
-                  <span class="text-red d-block">
-                      <span class="d-flex align-items-center">
-                      <span>
-                          <i class="fs-4 far fa-clock"></i>
-                      </span>
-                      <span class="px-1">
-                          Lunes a Viernes 08:30 a 18:00
-                      </span>
-                      </span>
-                  </span>
-                  <span class="text-red d-block">
-                      <span class="d-flex align-items-center">
-                      <span>
-                          <i class="fs-4 far fa-clock"></i>
-                      </span>
-                      <span class="px-1">
-                          Sábados: 08:30 a 13
-                      </span>
-                      </span>
-                  </span>
-              </span>
-              </li>
-              <li>
-              <span class="mr-3 d-block">
-                  <h3 class="text-white">TRABAJA CON NOSOTROS</h3>
-                  <span class="text-white d-block">
-                  <a class="d-block" href="./contacto.html">
-                      <span class="d-flex align-items-center">
-                      <span>
-                          <i class="fs-4 far fa-envelope"></i>
-                      </span>
-                      <span class="px-1">
-                          auxrrhh@hierronort.com.ar
-                      </span>
-                      </span>
-                  </a>
-                  </span>
-              </span>
-              </li>
-              <li>
-              <!-- <h3 class="text-white">Seguinos en nuestras redes</h3> -->
-              <ul class="list-unstyled footer-link d-flex footer-social">
-                  <li><a href="https://www.facebook.com/Hierronort.ok" class="p-2" target="_blanck"><i class="fab fa-facebook-square"></i></a></li>
-                  <li><a href="https://www.instagram.com/hierronort" class="p-2" target="_blanck"><i class="fab fa-instagram"></i></span></a></li> 
-                  <li><a href="https://www.linkedin.com/company/hierronort" class="p-2" target="_blanck"><i class="fab fa-linkedin-in"></i></span></a></li>
-              </ul>
-              </li>
-          </div>
-          <div class="col-md-3 d-flex justify-content-center allign-items-center">
-          <div class="mx-auto p-3  footer-logo">
-              <img src="./assets/img/logo.png" alt="logo-hierronort">
-          </div>
-          </div>
-      </div>
-      </div>
-  </footer> 
+    <footer class="site-footer bg-white" role="contentinfo">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+            <ul class="h-100 list-unstyled footer-link">
+                <li>
+                <span class="mr-3 d-block">
+                    <h3 class="text-grey">INSTITUCIONAL</h3>
+                    <span class="d-block">
+                    <a href="#">Inicio</a>
+                    </span>
+                    <span class="d-block">
+                    <a href="#nosotros">Nosotros</a>
+                    </span>
+                    <span class="d-block">
+                    <a href="#productos">Productos</a>
+                    </span>
+                </li>
+                <li class="mt-5">
+                <span class="mr-3 d-block">
+                    <h3 class="text-white">AYUDA</h3>
+                    <span class="text-white d-block">
+                    <a href="https://api.whatsapp.com/send/?phone=5493874405574&text&type=phone_number&app_absent=0&text=Hola%2C+los+visito+desde+su+sitio+web.%0AMi+nombre+es%3A%0AMi+CUIT+es%3A%0A">
+                        Asesoramiento
+                    </a>
+                    </span>
+                    <span class="text-white d-block">
+                    <a href="#">Medios de Pago</a>
+                    </span>
+                    <span class="text-white d-block">
+                    <a href="#">Cambios y Devoluciones</a>
+                    </span>
+                    <span class="text-white d-block">
+                    <a href="#">Envios</a>
+                    </span>
+                </span>
+                </li>
+                
+            </ul>
+            </div>
+            <div class="col-md-3"> 
+            <!-- <h2 class="text-white">SUCURSALES</h3> -->
+            <ul class="list-unstyled footer-link">
+                <li>
+                <span class="mr-3 d-block text-uppercase">
+                    <h3 class="text-white">Casa Central - Salta</h3>
+                    <span class="text-red d-flex align-items-center">
+                    <span>
+                        <i class="fs-4 fas fa-map-marker-alt"></i>
+                    </span>
+                    <span class="px-1">
+                        Av. Paraguay 1450
+                    </span>
+                    </span>
+                </span>
+                </li>
+                <li>
+                <span class="mr-3 d-block text-uppercase">
+                    <h3 class="text-white">Sucursal Salta</h3>
+                    <span class="text-red d-flex align-items-center">
+                    <span>
+                        <i class="fs-4 fas fa-map-marker-alt"></i>
+                    </span>
+                    <span class="px-1">
+                        San Juan 1344
+                    </span>
+                    </span>
+                </span>
+                </li>
+                <li>
+                <span class="mr-3 d-block text-uppercase">
+                    <h3 class="text-white">Sucursal Jujuy</h3>
+                    <span class="text-red d-flex align-items-center">
+                    <span>
+                        <i class="fs-4 fas fa-map-marker-alt"></i>
+                    </span>
+                    <span class="px-1">
+                        Av. Corrientes 3390
+                    </span>
+                    </span>
+                </span>
+                </li>
+                <li>
+                <span class="mr-3 d-block text-uppercase">
+                    <h3 class="text-white">Sucursal Tucumán</h3>
+                    <span class="text-red d-flex align-items-center">
+                    <span>
+                        <i class="fs-4 fas fa-map-marker-alt"></i>
+                    </span>
+                    <span class="px-1">
+                        Av. Colón 925
+                    </span>
+                    </span>
+                </span>
+                </li>
+                <li>
+                <span class="mr-3 d-block text-uppercase">
+                    <h3 class="text-white">Centro de Distribución San Andrés, Tucumán</h3>
+                    <span class="text-red d-flex align-items-center">
+                    <span>
+                        <i class="fs-4 fas fa-map-marker-alt"></i>
+                    </span>
+                    <span class="px-1">
+                        Ruta provincial N° 306 - Km 16 - Los Porceles, Tucumán
+                    </span>
+                    </span>
+                </span>
+                </li>
+            </ul>
+            </div>
+            <div class="col-md-3">
+            <ul class="list-unstyled footer-link">
+                <li>
+                <span class="mr-3 d-block">
+                    <h3 class="text-white">COTIZACIÓN ONLINE</h3>
+                    <span class="text-white d-block">
+                    <a href="#">
+                        <span class="d-flex align-items-center">
+                        <span>
+                            <i class="fs-4 fab fa-whatsapp"></i>
+                        </span>
+                        <span class="px-1">
+                            +54 9 3874 40-5574
+                        </span>
+                        </span>
+                    </a>
+                    </span>
+                </span>
+                </li>
+                <li>
+                <span class="mr-3 d-block">
+                    <h3 class="text-white">HORARIOS</h3>
+                    <span class="text-red d-block">
+                        <span class="d-flex align-items-center">
+                        <span>
+                            <i class="fs-4 far fa-clock"></i>
+                        </span>
+                        <span class="px-1">
+                            Lunes a Viernes 08:30 a 18:00
+                        </span>
+                        </span>
+                    </span>
+                    <span class="text-red d-block">
+                        <span class="d-flex align-items-center">
+                        <span>
+                            <i class="fs-4 far fa-clock"></i>
+                        </span>
+                        <span class="px-1">
+                            Sábados: 08:30 a 13
+                        </span>
+                        </span>
+                    </span>
+                </span>
+                </li>
+                <li>
+                <span class="mr-3 d-block">
+                    <h3 class="text-white">TRABAJA CON NOSOTROS</h3>
+                    <span class="text-white d-block">
+                    <a class="d-block" href="./contacto.html">
+                        <span class="d-flex align-items-center">
+                        <span>
+                            <i class="fs-4 far fa-envelope"></i>
+                        </span>
+                        <span class="px-1">
+                            auxrrhh@hierronort.com.ar
+                        </span>
+                        </span>
+                    </a>
+                    </span>
+                </span>
+                </li>
+                <li>
+                <!-- <h3 class="text-white">Seguinos en nuestras redes</h3> -->
+                <ul class="list-unstyled footer-link d-flex footer-social">
+                    <li><a href="https://www.facebook.com/Hierronort.ok" class="p-2" target="_blanck"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.instagram.com/hierronort" class="p-2" target="_blanck"><i class="fab fa-instagram"></i></span></a></li> 
+                    <li><a href="https://www.linkedin.com/company/hierronort" class="p-2" target="_blanck"><i class="fab fa-linkedin-in"></i></span></a></li>
+                </ul>
+                </li>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center allign-items-center">
+            <div class="mx-auto p-3  footer-logo">
+                <img src="./assets/img/logo.png" alt="logo-hierronort">
+            </div>
+            </div>
+        </div>
+        </div>
+    </footer> 
 
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/aos.js"></script>
-    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/init-librerias.js"></script>
     <script src="./assets/js/mapa.js"></script>
-    <script src="./assets/js/carousel-promotions.js"></script>
 </body>
 </html>
